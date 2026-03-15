@@ -45,14 +45,14 @@ export default function HomeClient() {
       <div className="px-4 sm:px-6 pt-8 pb-12">
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
           <div>
-            <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
-              Say it beautifully. <span className="text-rose-300">Unlock love</span> in one link. 💖
+           <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
+              Love Letter Generator & <span className="text-rose-300">Proposal Page Maker</span> 💖
             </h1>
 
-            <p className="mt-4 text-white/80 text-lg">
-              Create a romantic proposal page, customize templates with your photos, move & resize texts, add soft love music,
-              then share as a link or download as PNG. Fully mobile-friendly.
-            </p>
+           <p className="mt-4 text-white/80 text-lg">
+            Love Unlock helps you create romantic love letters, proposal letters, surprise proposal links, and beautiful love pages.
+            You can customize templates with your photos, move and resize text, add soft love music, then share as a link or download as PNG.
+           </p>
 
             <div className="mt-6 flex flex-wrap gap-3">
               <Link href="/create" className="px-6 py-3 rounded-2xl bg-rose-600 hover:bg-rose-500 font-semibold">
@@ -182,6 +182,54 @@ export default function HomeClient() {
             </div>
           </div>
 
+<div className="mt-14 rounded-3xl bg-white/10 border border-white/20 p-6">
+  <h2 className="text-2xl font-extrabold">Create romantic love letters and proposal links online</h2>
+  <p className="mt-3 text-white/80">
+    Love Unlock is made for people who want to create a romantic surprise online. You can use it as a love letter generator,
+    proposal letter maker, romantic message creator, or proposal page builder. It is useful for creating a special love link
+    to share with your girlfriend, boyfriend, crush, wife, or husband.
+  </p>
+
+  <h3 className="mt-6 text-xl font-bold">Popular searches people use</h3>
+  <ul className="mt-3 space-y-2 text-white/75">
+    <li>• love letter generator</li>
+    <li>• propose letter making</li>
+    <li>• proposal letter maker</li>
+    <li>• love letter making online</li>
+    <li>• romantic proposal ideas</li>
+    <li>• how to propose girlfriend</li>
+    <li>• different ways to propose</li>
+    <li>• proposal link maker</li>
+    <li>• romantic message generator</li>
+    <li>• surprise love page</li>
+  </ul>
+
+  <h3 className="mt-6 text-xl font-bold">Frequently asked questions</h3>
+
+  <div className="mt-4 space-y-4 text-white/80">
+    <div>
+      <p className="font-semibold">What is Love Unlock?</p>
+      <p>
+        Love Unlock is an online romantic page and love letter generator that helps you create personalized proposal pages,
+        messages, and shareable love links.
+      </p>
+    </div>
+
+    <div>
+      <p className="font-semibold">Can I create a proposal letter online?</p>
+      <p>
+        Yes. You can use Love Unlock to create a proposal letter, romantic message, and a custom proposal page with your own style.
+      </p>
+    </div>
+
+    <div>
+      <p className="font-semibold">Can I make a love letter link to share?</p>
+      <p>
+        Yes. After creating your page, you can share it as a romantic surprise link with someone special.
+      </p>
+    </div>
+  </div>
+</div>
           {/* Footer */}
           <div className="mt-10 pb-8 text-center text-white/60 text-sm">
             <p>© {new Date().getFullYear()} Love Unlock — Made for Unique Propose💖</p>
