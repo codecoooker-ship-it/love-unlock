@@ -1,5 +1,12 @@
+import { Suspense } from "react";
 import UnlockClient from "@/components/UnlockClient";
 
+export const dynamic = "force-dynamic";
+
 export default function Page() {
-  return <UnlockClient />;
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <UnlockClient />
+    </Suspense>
+  );
 }
