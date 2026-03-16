@@ -37,6 +37,9 @@ export const metadata: Metadata = {
     "love letter online",
     "romantic proposal ideas",
   ],
+  verification: {
+  google: "zVue1Kuuu7XoHEC4SIF_wDYMYUwB42zteOddOAR3Ss8",
+},
   authors: [{ name: "Love Unlock" }],
   creator: "Love Unlock",
   publisher: "Love Unlock",
